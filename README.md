@@ -37,15 +37,6 @@ The buildpack will detect your app as Ruby if it has a `Gemfile` and `Gemfile.lo
 
 Clone the repo, then `bundle install` then clone the test fixtures by running:
 
-```sh
-$ hatchet install
-```
-
-Now run the tests:
-
-```sh
-$ bundle exec rspec spec
-```
 
 Now go take a nap or something for a really long time.
 
@@ -179,4 +170,3 @@ Rails 3 (config/application.rb is detected)
 * everything from Rails 2
 * install rails 3 plugins
   * [rails3_server_static_assets](https://github.com/pedro/rails3_serve_static_assets)
-
